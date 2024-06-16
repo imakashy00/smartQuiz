@@ -15,7 +15,7 @@ app.add_middleware(
 
 
 
-@app.get('/quiz/')
+@app.get('/')
 async def quiz():
     with open('questions.json') as q:
         data = json.load(q)

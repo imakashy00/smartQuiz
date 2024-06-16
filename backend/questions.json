@@ -1,0 +1,54 @@
+{
+  "quiz": [
+    {
+      "question": "Which of the following are programming languages?",
+      "choices": ["Python", "HTML", "Java", "CSS"],
+      "answers": ["Python", "Java"]
+    },
+    {
+      "question": "Which of these are fruits?",
+      "choices": ["Carrot", "Banana", "Apple", "Potato"],
+      "answers": ["Banana", "Apple"]
+    },
+    {
+      "question": "Which of the following are planets in our solar system?",
+      "choices": ["Earth", "Sun", "Mars", "Moon"],
+      "answers": ["Earth", "Mars"]
+    },
+    {
+      "question": "Which of these animals are mammals?",
+      "choices": ["Elephant", "Shark", "Frog", "Dolphin"],
+      "answers": ["Elephant", "Dolphin"]
+    },
+    {
+      "question": "Which of the following are web development languages?",
+      "choices": ["HTML", "C++", "JavaScript", "Python"],
+      "answers": ["HTML", "JavaScript"]
+    },
+    {
+      "question": "Which of these elements are noble gases?",
+      "choices": ["Helium", "Oxygen", "Neon", "Nitrogen"],
+      "answers": ["Helium", "Neon"]
+    },
+    {
+      "question": "Which of the following are primary colors?",
+      "choices": ["Red", "Green", "Blue", "Yellow"],
+      "answers": ["Red", "Blue", "Yellow"]
+    },
+    {
+      "question": "Which of these are cloud storage services?",
+      "choices": ["Dropbox", "Google Drive", "Facebook", "Instagram"],
+      "answers": ["Dropbox", "Google Drive"]
+    },
+    {
+      "question": "Which of the following are operating systems?",
+      "choices": ["Windows", "Linux", "Oracle", "macOS"],
+      "answers": ["Windows", "Linux", "macOS"]
+    },
+    {
+      "question": "Which of these sports are played with a ball?",
+      "choices": ["Basketball", "Soccer", "Swimming", "Tennis"],
+      "answers": ["Basketball", "Soccer", "Tennis"]
+    }
+  ]
+}

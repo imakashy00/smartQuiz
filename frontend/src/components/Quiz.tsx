@@ -161,17 +161,17 @@ const Quiz = () => {
         setFullscreenEnabled(true);
         setQuizStarted(true);
         setQuizCompleted(false);
-        setCurrentQuestionIndex(0); // reset question index for a new quiz
-        setTimeLeft(600); // reset the timer for a new quiz
-        setSelectedAnswers(new Array(quizData.length).fill([])); // reset selected answers for a new quiz
-        setShowScore(false); // Hide score div
+        setCurrentQuestionIndex(0); 
+        setTimeLeft(600); 
+        setSelectedAnswers(new Array(quizData.length).fill([])); 
+        setShowScore(false); 
         startTimer();
     };
 
     const handleDone = () => {
-        setQuizCompleted(false); // reset quiz completion
-        setQuizStarted(false); // stop the quiz
-        setShowScore(false); // hide score div
+        setQuizCompleted(false); 
+        setQuizStarted(false); 
+        setShowScore(false); 
         setCurrentQuestionIndex(0); // reset question index
         setTimeLeft(600); // reset the timer
         setSelectedAnswers(new Array(quizData.length).fill([])); // reset selected answers

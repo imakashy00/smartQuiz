@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import json
+import uvicorn
 
 app = FastAPI()
 
@@ -21,3 +22,7 @@ async def quiz():
         data = json.load(q)
         return data
 
+
+
+if __name__ == "__main__":
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, log_level="info")

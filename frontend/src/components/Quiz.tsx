@@ -132,7 +132,6 @@ const Quiz = () => {
             clearInterval(timerRef.current);
         }
         calculateScore();
-        setShowScore(true); // Show score div
         setQuizStarted(false); // stop the quiz
         localStorage.removeItem('currentQuestionIndex'); // reset question index for a new quiz
         localStorage.removeItem('timeLeft'); // reset time for a new quiz
@@ -163,14 +162,12 @@ const Quiz = () => {
         setCurrentQuestionIndex(0); 
         setTimeLeft(600); 
         setSelectedAnswers(new Array(quizData.length).fill([])); 
-        setShowScore(false); 
         startTimer();
     };
 
     const handleDone = () => {
         setQuizCompleted(false); 
         setQuizStarted(false); 
-        setShowScore(false); 
         setCurrentQuestionIndex(0); // reset question index
         setTimeLeft(600); // reset the timer
         setSelectedAnswers(new Array(quizData.length).fill([])); // reset selected answers

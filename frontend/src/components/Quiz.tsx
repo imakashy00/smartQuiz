@@ -35,7 +35,7 @@ const Quiz = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get<QuizData>('http://localhost:8000/');
+                const response = await axios.get<QuizData>('https://smartquiz-7q2b.onrender.com');
                 setQuizData(response.data.quiz);
                 setSelectedAnswers(new Array(response.data.quiz.length).fill([]));
             } catch (error) {

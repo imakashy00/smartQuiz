@@ -28,7 +28,6 @@ const Quiz = () => {
     );
     const [quizCompleted, setQuizCompleted] = useState<boolean>(false);
     const [score, setScore] = useState<number | null>(null);
-    const [showScore, setShowScore] = useState<boolean>(false);
     const [fullscreenEnabled, setFullscreenEnabled] = useState<boolean>(false);
 
     const timerRef = useRef<number | null>(null);
